@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+   
+ <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- aos -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;800&display=swap"
+        rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&family=Open+Sans:wght@300&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <img src="Images/nav-logo.png" alt="image not found">
+
+            <a href="#">
+                <i class="fas fa-bars"></i>
+            </a>
+
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">RESERVATION</a></li>
+                <li><a href="#">PAGES</a></li>
+                <li><a href="#">RECIPE </a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </div>
+        <!--end of header-->
+        <div class="hero-section">
+            <img src="Images/logo.png" id="logo" alt="image not found">
+            <h1>DELOCIOUS FOOD</h1>
+            <h3>Tomato is a Delicious Restaurant website template</h3>
+          <a><img src="Images/arrow-down.png" id="logo1" alt="image not found" data-aos="zoom-out"></a>
+        </div>
+        <!--end of hero-section-->
+
+        <div class="resto">
+            <h2>THE RESTAURANT</h2>
+            <P>A little about us and a brief history of how we started. </P>
+            <hr>
+            
+            <div class="inner">
+                <div class="R1">
+                    <div>
+                        <img src="Images/thumb1.png" id="thumb1" alt="image not found" data-aos="zoom-out" >
+                    </div>
+                    <div class="thumb">
+                    <div>
+                        <img src="Images/thumb2.png" id="thumb2" alt="image not found" data-aos="zoom-in" >
+                    </div>
+
+                    <div>
+                        <img src="Images/thumb3.png" id="thumb3" alt="image not found" data-aos="zoom-out" >
+                    </div>
+                    </div>
+                    </div>
+                <!--end of R1-->
+
+                <div class="R2">
+                    <p>Cras ut viverra eros. Phasellus sollicitudin sapien id luctus tempor. Sed hend rerit inter dum
+                        sagittis. Donec nunc lacus, dapibus nec interdum eget, ultrices eget justo. Nam purus lacus,
+                        efficitur eget laoreet sed, finibus nec neque. Cras eget enim in diam dapibus sagittis. In massa
+                        est, dignissim in libero ac, fringilla ornare mi. Etiam interdum ligula purus.</p>
+
+                    <p>Ultrices eget justo. Nam purus lacus, efficitur eget laoreet sed, finibus nec neque. Cras eget
+                        enim
+                        in diam dapibus sagittis. In massa est, dignissim in libero ac, fringilla ornare.</p>
+                    <img src="Images/signature.png" alt="image not found">
+                    </div>
+                </div>
+                <!--end of R2-->
+            </div>
+            <!--end of inner-->
+        </div>
+        <!--end of resto-->
+
+        <div class="white">
+            <h2>TODAY'S SPECIALS</h2>
+            <p id="breif">A little about us and a breif history of how we started.</p>
+            <hr>
+            <div class="black">
+                <div class="B1">
+                    <img src="Images/thumb4.png" alt="image not found">
+                </div>
+
+                <div class="B2">
+                    
+                    <h3>1 Pancake with Caramel</h3>
+                    <p>If you are a fan of caramel cake, then you'll love our Pancake with caramel icecream. It's not
+                        thick,
+                        but very tasty.</p>
+                    <hr>
+                    <p>Ultrices eget justo. Nam purus lacus, efficitur eget laoreet sed, finibus nec neque. Cras eget
+                        enim
+                        in diam dapibus sagittis. In massa est, dignissim in libero ac, fringilla ornare.</p>
+                    <button type="submit" id="sub1">ORDER NOW</button>
+                    <button type="submit" id="sub2">ADD TO CART</button>
+                    </div>
+                </div><!--end black-->
+            </div>
+            <!--end of special-->
+        
+
+        <div class="reserv">
+            <h2>RESERVATIONS</h2>
+            <p>Book a table online. Leads will reach in your email.</p>
+            <hr>
+            <form>
+                <div class="r1">
+                <div>
+                        <label id="app" for="date">Date :</label>
+                        <input type="date" name="date" id="date">
+                    
+                </div>
+
+                <div>
+                
+                        <label id="app" for="name">Name :</label>
+                        <input type="text" name="name" placeholder="Full Name" id="name">
+                    
+                </div>
+            </div>
+
+            <div class="r2">
+                <div >
+                
+                        <label id="app" for="time">Time :</label>
+                        <input type="time" name="time" id="time">
+                    
+                </div>
+
+                        <div>
+                        
+                                <label id="app1" for="email">Email :</label>
+                                <input type="email" name="email" placeholder="Email Address" id="email">
+                            
+                        </div></div>
+
+                        <div class="r3">
+                        <div>
+                        
+                                <label id="app" for="name1">Guests :</label>
+                                <input type="text" name="name" placeholder="How many of you?" id="name1">
+                            
+                        </div>
+
+                        <div>
+                             <label id="app1" for="number">Phone :</label>
+                                <input type="number" name="number" placeholder="Enter your phone number" id="number">
+                            
+                        </div>
+                        </div>
+                        <button type="submit"><b>MAKE RESERVATION</b></button>
+            </form>
+            <p class="contact">You can also call: <b>+1 224 6787 004</b> to make a reservation</p>
+        </div>
+        <!--end of reserv-->
+
+        <div class="features">
+            <h2>OUR FEATURES</h2>
+            <p class="in">Little things make us best in town</p>
+            <hr id="hr">
+            <div class="serv1" data-aos="zoom-in" data-aos-delay="1000">
+                <img src="Images/thumb5.png" alt="image not found">
+                <h3>SERVING WITH LOVE</h3>
+                <hr>
+                <p>Aenean suscipit vehicula purus quis iaculis. Aliquam nec leo nisi. Nam urna arcu, maximus eget ex
+                    nec,
+                    consequat pellentesque enim. Aliquam tempor fringilla odio, vel ullamcorper turpis varius eu.</p>
+            </div>
+
+            <div class="serv1" data-aos="zoom-in" data-aos-delay="1100">
+                <img src="Images/thumb6.png" alt="image not found">
+                <h3>SERVING WITH LOVE</h3>
+                <hr>
+                <p>Aenean suscipit vehicula purus quis iaculis. Aliquam nec leo nisi. Nam urna arcu, maximus eget ex
+                    nec,
+                    consequat pellentesque enim. Aliquam tempor fringilla odio, vel ullamcorper turpis varius eu.</p>
+            </div>
+
+            <div class="serv1" data-aos="zoom-in" data-aos-delay="1200">
+                <img src="Images/thumb7.png" alt="image not found">
+                <h3>SERVING WITH LOVE</h3>
+                <hr>
+                <p>Aenean suscipit vehicula purus quis iaculis. Aliquam nec leo nisi. Nam urna arcu, maximus eget ex
+                    nec,
+                    consequat pellentesque enim. Aliquam tempor fringilla odio, vel ullamcorper turpis varius eu.</p>
+            </div>
+
+            <div class="serv" data-aos="zoom-in" data-aos-delay="1300">
+                <img src="Images/thumb5.png" alt="image not found">
+                <h3>SERVING WITH LOVE</h3>
+                <hr>
+                <p>Aenean suscipit vehicula purus quis iaculis. Aliquam nec leo nisi. Nam urna arcu, maximus eget ex
+                    nec,
+                    consequat pellentesque enim. Aliquam tempor fringilla odio, vel ullamcorper turpis varius eu.</p>
+            </div>
+        </div>
+        <!--end of features-->
+
+        <div class="menu">
+            <h2>OUR MENU</h2>
+            <hr>
+            <p>These fine folks trusted the award winning restaurant.</p>
+            <hr>
+            <ul>
+                <li><b>ALL</b></li>
+                <li><b>STARTERS</b></li>
+                <li><b>BREAKFAST</b></li>
+                <li><b>LUNCH</b></li>
+                <li><b>DINNER</b></li>
+                <li><b>DESSERTS</b></li>
+            </ul>
+
+            <div class=" english">
+            <div class="RC">
+                        <div class="eng" data-aos="zoom-in" data-aos-delay="1000">
+                            <div><h4>ENGLISH ASPARAGUS</h4>
+                            <p>pellentesque enim. Aliquam tempo</p>
+                        </div><div class="dot">........................</div>
+                        <div> <b>$14.95</b></div>
+                    </div>
+
+                        <div class="eng" data-aos="zoom-in" data-aos-delay="1000">
+                            <div><h4>ENGLISH ASPARAGUS</h4>
+                            <p>pellentesque enim. Aliquam tempo</p>
+                        </div>
+                        <div class="dot">.......................</div>
+                        <div><b>$14.95</b></div>
+                    </div>
+                    </div>
+
+                    <div class="RC1">
+                        <div class="eng" data-aos="zoom-in" data-aos-delay="1200">
+                            <div><h4>ENGLISH ASPARAGUS</h4>
+                            <p>pellentesque enim. Aliquam tempo</p>
+                        </div>
+                        <div class="dot">......................</div>
+                        <div> <b>$14.95</b></div>
+                    </div>
+
+                    
+                        <div class="eng" data-aos="zoom-in" data-aos-delay="1200">
+                            <div><h4>ENGLISH ASPARAGUS</h4>
+                            <p>pellentesque enim. Aliquam tempo</p>
+                        </div>
+                        <div class="dot">......................</div>
+                        <div><b>$14.95</b></div>
+                    </div>
+                    </div>
+                        
+                    <div class="RC2">
+                        <div class="eng" data-aos="zoom-in" data-aos-delay="1400">
+                          <div><h4>ENGLISH ASPARAGUS</h4>      
+                            <p>pellentesque enim. Aliquam tempo</p>
+                        </div><div class="dot">......................</div>
+                        <div> <b>$14.95</b></div>
+                    </div>
+
+                    <div class="eng" data-aos="zoom-in" data-aos-delay="1400">
+                            <div><h4>ENGLISH ASPARAGUS</h4>
+                            <p>pellentesque enim. Aliquam tempo</p>
+                        </div><div class="dot">......................</div>
+                        <div> <b>$14.95</b></div>
+                    </div>
+                    </div>
+
+                    <div class="RC3">
+                        <div class="eng" data-aos="zoom-in" data-aos-delay="1600">
+                            <div><h4>ENGLISH ASPARAGUS</h4>
+                            <p>pellentesque enim. Aliquam tempo</p>
+                        </div><div class="dot">......................</div>
+                        <div><b>$14.95</b></div>
+                    </div>
+
+                        <div class="eng" data-aos="zoom-in" data-aos-delay="1600">
+                            <div><h4>ENGLISH ASPARAGUS</h4>
+                            <p>pellentesque enim. Aliquam tempo</p>
+                        </div><div class="dot">......................</div>
+                        <div> <b>$14.95</b></div>
+                    </div>
+                    </div>
+
+                    <button type="button">EXPLORE OUR MENU</button>
+                
+                 </div><!--end english-->
+        </div>
+        <!-- end of menu -->
+
+         <div class="trust">
+            <h2>TRUSTED BY</h2>
+            <p>These fine folks trusted tha award winning restauran</p>
+            <hr>
+            <div>
+                <img src="Images/foodsquare.png" id="table1" alt="image not found">
+            </div>
+            <div>
+                <img src="Images/opentable.png" id="table2" alt="image not found">
+            </div>
+            <div>
+                <img src="Images/tripadvisor.png" id="table3" alt="image not found">
+            </div>
+            <div>
+                <img src="Images/zomato.png" id="table4" alt="image not found">
+            </div>
+            <div>
+                <img src="Images/foodsquare.png" id="table5" alt="image not found">
+            </div>
+        </div>
+        <!--end of trust-->
+
+
+        <div class="para">
+            <a href="#">
+                <i class="fas fa-quote-left"></i>
+            </a>
+            <p>The world's a big stage for thi nortorius deli smack in the middle of the theater district, infamously
+                famous
+                for its over-the-top corned beef and pastrami sandwiches,chopped liver, blintzes, celebrities
+                salami,smoked,fish and New York's finest cheesecake.</p>
+            <cite>Anthony Reed,New York</cite>
+        </div>
+
+
+        <div class="insta">
+            <h2>INSTAGRAM</h2>
+            <p>We love posting photos of our coustomers having a good time</p>
+            <hr>
+        </div>
+        <!--end of insta-->
+
+        <div class="subscribe">
+            <h2>SUBSCRIBE</h2>
+            <p>Get updates about new dishes and upcoming events</p>
+            <div class="get">
+            <input type="email" value="" placeholder="Your Email Address">
+            <button type="submit"><i class="fas fa-angle-right"></i></button>
+            </div>
+        </div>
+        <!--end of subscribe-->
+
+        <div class=" newsletter">
+            <div class="cat">
+                <div class="about">
+                    <h2>ABOUT US</h2>
+                    <p>Duis leo justo, condimentum at purus eu,Aenean sed dolor sem. Etiam massa libero, auctor vitae
+                        egestas
+                        et, accumsan quis nunc.Duis leo justo, condimentum at purus eu, posuere pretium tellus.</p>
+                    <button type="button">Read more
+                        <!-- <i class="far fa-long-arrow-right"></i> -->
+                    </button>
+
+                    <div class="box">
+                        <div class="post">
+                            <h2>RECENT POST</h2>
+                            <div>
+                                <img src="Images/thumb8.png" alt="image not found">
+                                <h4>Hand picked ingredients for our best customers</h4>
+                                <!-- <p>29 May 2015</p> -->
+                            </div>
+                            <p>29 May 2015</p>
+
+                            <div>
+                                <img src="Images/thumb9.png" alt="image not found">
+                                <h4>Daily specials food that you will going to love</h4>
+                                <!-- <p>29 May 2015</p> -->
+                            </div>
+                            <p>29 May 2015</p>
+                        </div>
+                        <!--end post-->
+
+
+                        <div class="reach">
+                            <h2>REACH US</h2>
+                            <div class="logo">
+                                <!-- <ul> -->
+                                <div><a href="#"><i class="fab fa-facebook-square"></i></a></div>
+                                <div><a href="#"><i class="fab fa-twitter"></i></a></div>
+                                <div><a href="#"><i class="fab fa-goodreads-g"></i></a></div>
+                                <div><a href="#"><i class="fab fa-youtube-square"></i></a></div>
+                                <div><a href="#"><i class="fab fa-vimeo-v"></i></a></div>
+                                <div><a href="#"><i class="fab fa-pinterest-p"></i></a></div>
+                                <div><a href="#"><i class="fab fa-linkedin-in"></i></a></div>
+                                <!-- </ul> -->
+                            </div>
+                            <div class="address">
+
+                                <p><i class="fas fa-map-marker-alt"></i> 28 Seventh Avenue, Neew York, 10014</p>
+                                <p> <i class="fas fa-phone-alt"></i> Phone: (415) 124-5678</p>
+                                <p> <i class="fas fa-envelope"></i> support@restaurant.com</p>
+                            </div>
+                        </div>
+                    </div>
+                <!-- </div> -->
+                <!--end reach-->
+            </div>
+            <!--end about-->
+        </div>
+        <!--end of newsletter-->
+
+        <div class="footer">
+            <p> &copy; 2015.Tomato.All rights reserved. Designed with <i class="fas fa-heart"></i> by Pgawade</p>
+        </div>
+    </div>
+    <!--end of container-->
+
+
+    <!-- aos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
