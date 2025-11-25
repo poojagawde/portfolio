@@ -1,0 +1,527 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    border: 1px solid;
+}
+.hero-section{
+    font-family: 'Secular One', sans-serif;
+    height: 600px;
+    background:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0,0.8)), url(../images/bg-hero-image.jpg);
+    background-size: 100% 100%;
+    color: white;
+    filter: saturate(2);
+}
+.header{
+    height: 100px;
+}
+.header img{
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+}
+.header ul a,.hero-section input,.project ul{
+   display: none;
+   font-family: 'Secular One', sans-serif;
+}
+.header a{
+   position: absolute;
+   margin-top: 30px;
+   padding-left: 110px; 
+   color: white;
+}
+.header a:hover{
+    color: #f2b410;
+}
+.hero-section h1{
+    margin: 25px;
+}
+.hero-section h3{
+    margin: 20px 0px 10px 0px;
+}
+.hero-section p,.hero-section h3,.hero-section h1{
+    text-align: center;
+    padding: 5px;
+}
+.service,.project{
+   text-align: justify;
+   background-color: #262626;
+   color: white;
+}
+.service div{
+    text-align: justify;
+    display: inline-block;
+    padding: 20px;
+}
+.service1{
+    margin: 10px;
+}
+.system,.project,.project div img,.testi,.phase,.phase1 div,.phase2 div,.phase3 div,.phase4 div,.blog1 img,.blog2 img,.blog3 img,.blog4 img,.about,.latest,.work,.latest p{
+    padding: 10px;
+}
+.system h4,h3{
+    text-align: center;
+}
+.system h3,.service h3{
+    font-size: 30px;
+}
+.system2 h3,h2,.service1 h3{
+    font-family: 'Secular One', sans-serif;
+}
+.system img,.project div img,.phase1,.phase2,.phase3,.phase4,.blog1 img,.blog2 img,.blog3 img,.blog4 img,.testi1 img,.testi2 img{
+   width: 100%;
+}
+.system hr{
+    margin-left: 130px;
+}
+.project p,.system p,.news p{
+    margin-top: 10px;
+}
+.project input,.design input{
+    background: transparent;
+    border: 2px solid white;
+    color:white  ;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    font-family: 'Secular One', sans-serif;
+}
+.project input:hover{
+    background-color: #f2b610e3;
+    color: rgb(8, 8, 8);
+    border: 1px solid;
+}
+.view,.phase{
+    display: inline-block;
+}
+.project img,.work img{
+    filter: saturate(2);
+}
+.project a{
+    color: white;
+    padding-left: 120px;
+    margin-top: 10px;
+    width: 40%;
+}
+.project h2,.news h2,.doc h2{
+    font-size: 35px;
+}
+ .project hr,.system hr{
+     width: 15%;
+     border: 1px solid #f2b410;
+     margin-top: 10px;
+}
+.bata{
+    text-align: center;
+    padding: 10px;
+    background: #f2b410;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+}
+.bata1{
+    padding-top: 30px;
+}
+.bata1 cite{
+    margin-top: 30px;
+    margin-left: 20px ;
+}
+.testi,.testi1,.testi2,.phase1,.phase2,.phase3,.phase4,.work1,.work2{
+    display: flex;
+}
+.testi3{
+    border-left: 2px dashed;
+    margin-top: 10px;
+}
+.testi1 img,.testi2 img,.blog1,.blog2,.blog3,.blog4{
+    padding: 5px;
+}
+.news{
+    background: #ffffff;
+    color: black;
+    padding: 10px;
+}
+.news h2,.about h2,.latest h2,.work h2,.project h2{
+    padding-top: 40px;
+}
+.news input{
+    padding: 10px;
+    margin-top: 20px;
+    background: transparent;
+    font-family: 'Secular One', sans-serif;
+}
+.news input:hover{
+    background-color: #f2b610e3;
+    color: rgb(12, 12, 12);
+    border: 1px solid;
+}
+.news hr{
+    width: 20%;
+    border: 2px solid rgb(255, 217, 0);
+}
+.phase{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.phase p{
+    font-size: 25px;
+}
+.blog1 p,.blog2 p,.blog3 p,.blog4 p{
+    font-size: 17px;
+    color: #555555;
+    font-family: 'Secular One', sans-serif;
+}
+.blog1 input,.blog2 input,.blog3 input,.blog4 input{
+    padding: 10px 25px;
+    background-color: #f2b410;
+    color: #ffffff;
+    margin: 10px 5px;
+    border: 1px solid #f2b410 ;
+    font-family: 'Secular One', sans-serif;
+}
+.blog1 input:hover,.blog2 input:hover,.blog3 input:hover,.blog4 input:hover{
+    background-color: #ffffff;
+    color: #f2b410;
+}
+.phase {
+    padding: 20px;
+}
+.phase1 p,.phase2 p,.phase3 p,.phase4 p{
+    font-family: 'Secular One', sans-serif;
+    font-weight: 600;
+}
+.phase hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.design{
+    padding: 20px;
+    background-color: #f2b410;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+}
+.design input:hover{
+    background-color: #f7f5f1;
+    color: #f2b410;
+    border: 1px solid;
+}
+.about,.latest,.work{
+    font-family: 'Secular One', sans-serif;
+    background-color: #0f0f0f;
+    color: #ffffff;
+}
+.about a{
+color: #f2b410;
+}
+.latest span{
+    color: gray;
+    padding-top: 10px;
+}
+.inner{
+    border-left: 1px dashed gray;
+}
+.work1 img,.work2 img{
+     width: 33%;
+     padding: 5px;
+}
+.footer{
+    width: 100%;
+    background-color: #262626;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+}
+.footer img{
+    margin: 20px;
+    width: 40%;
+}
+.footer a{
+    margin: 5px;
+    color: #ffffff;
+}
+.footer div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+}
+/* code for 375px */
+@media  screen and (min-width:375px) {
+    .header a{
+        margin-left: 60px;
+    }
+    .project a{
+        padding-left: 160px;
+    }
+    .service img{
+        margin-left: 40px;
+     }
+     .system{
+         padding: 40px;
+     }
+}
+/* code for 425px */
+@media  screen and (min-width:425px){
+    .header a{
+        margin-left: 110px;
+    }
+    .project a{
+        width: 30px;
+        padding-left: 210px;
+    }
+   .service img{
+       margin-left: 60px;
+    }
+    .system2 hr{
+        margin-left: 170px;
+    }
+}
+/* code for 768px */
+@media  screen and (min-width:768px ){
+ .header a{
+     margin-left: 440px;
+ }
+ .header img,.hero-section input,.footer img{
+    width: 20%;
+ }
+ .hero-section input{
+     display: inline-block;
+     border: 1px solid white;
+     color: #ffffff;
+     background: transparent;
+     margin-left: 340px;
+     padding: 10px;
+     margin-top: 20px;
+ }
+ .hero-section input:hover{
+    border: 2px solid #fff;
+    border-radius:10px ;
+    color: white;
+    font-size: large;
+}
+ .hero-section h3{
+     margin-top: 90px;
+ }
+ .hero-section h1{
+     font-size: 50px;
+     padding: 10px 100px;
+ }
+ .service,.system,.lorem,.project ul,.project ul li{
+     display: flex;
+ }
+ .service1{
+     width: 30%;
+ }
+ .service1 img{
+ margin-left: 20px;
+ }
+ .system{
+     height: 400px;
+     margin: 10px;
+     justify-content: center;
+     align-items: center;
+ }
+ .system2,.service1 img{
+     width: 80%;
+ }
+ .system1{
+    width: 100%;
+}
+.system2 hr{
+    margin-left: 120px;
+}
+.project a{
+    display: none;
+} 
+.project p{
+    width: 60%;
+    margin-right: 20px;
+}
+.lorem input{
+    margin-left: 40px;
+}
+.lorem{
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.project ul{
+    padding-bottom: 40px;
+}
+.project ul li{
+    padding-left: 40px;
+}
+.project img{
+    height: 250px;
+}
+.bata1{
+    font-size: 20px;
+    padding-top: 40px;
+}
+.testi{
+margin: 0px 0px 0px 200px;
+}
+.testi3{
+    margin: 20px 60px;
+}
+.testi1 div,.testi2 div,.system1{
+    padding: 10px;
+    margin: 10px;
+}
+}
+/* code for 1024px */
+@media  screen and (min-width:1024px ){
+    .header .fa-bars{
+        display: none;
+    }
+    .header ul li{
+        display: inline-block;
+        padding: 30px;
+        margin: -10px 62px 0px -35px;
+    }
+    .header ul{
+        padding-right: 40px;
+        margin: -100px 20px 0px 10px;
+    }
+    .header ul li a{
+        padding-left: 5px;
+        display: block;
+        text-decoration: none;
+   }
+    .fa-search{
+     margin: 0px 0px 0px 30px;
+    }
+    .header ul li #blog{
+        margin: 30px 0px 0px 455px;
+    }
+    .hero-section h3{
+        margin-top: 110px;
+    }
+    .hero-section input{
+        width: 25%;
+        text-align: center;
+        margin-top: 70px;
+    }
+    .hero-section{
+        height: 900px;
+    }
+    .hero-section h1{
+        font-size: 70px;
+    }
+    .hero-section h3{
+        font-size: 30px;
+    }
+    .hero-section p,.hero-section input,.header ul,.system2,.lorem,.news,.phase input,.design,.doc div{
+        font-size: 20px;
+    }
+    .system2 hr{
+        margin-left: 160px;
+    }
+    .build{
+        padding: 20px;
+    }
+    .testi3{
+        margin: 40px 170px;
+    }
+    .testi{
+        margin: 20px 0px 0px 300px;
+    }
+    .outer{
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+    .outer p{
+        width: 50%;
+        text-align: justify;
+        margin-right: 60px;
+    }
+    .outer input{
+        width: 20%;
+        margin-left: 160px;
+    }
+    .doc,.outer,.build{
+        display: flex;
+    }
+    .doc div{
+        width: 60%;
+    }
+    .doc img{
+        width: 55%;
+    }
+    .view input{
+        margin-left: 190px;
+    }
+}
+/* code for 1440px */
+@media  screen and (min-width:1326px ){
+    .hero-section p{
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+    .hero-section h3{
+        margin-top: 150px;
+    }
+    .header ul li{
+        margin: -10px 90px 0px -35px;
+    }
+    .header ul{
+        margin: -100px 20px 0px 250px;
+    }
+   .header ul li #blog{
+    margin: 30px 0px 0px 460px;
+   }
+   .fa-search{
+    margin: 0px 0px 0px 30px;
+    }
+    .hero-section input{
+        width: 20%;
+        margin: 100px 0px 0px 550px;
+    }
+    .service1{
+        width: 40%;
+    }
+    .service1 img{
+    width: 90%;
+    margin-left: 60px;
+    }
+    .system2 hr{
+        margin-left: 220px;
+    }
+    .system1 img{
+        width: 80%;
+    }
+    .system2{
+        padding: 10px;
+    }
+    .lorem,.project,.header ul li,.hero-section p,.service1{
+        font-size: 20px;
+    }
+    .bata1 p{
+        font-size: 30px;
+        padding: 40px;
+    }
+    .testi{
+        margin-left: 500px;
+    }
+    .testi3{
+        margin-left: 400px;
+    }
+    .outer,.system2{
+        font-size: 25px;
+    }
+    .phase{
+        display: flex;
+        margin-top: 30px;
+    }
+    .middle,.middle1{
+        margin: 20px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer div{
+        width: 100%;
+    }
+}
