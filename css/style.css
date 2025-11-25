@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --bs-blue:#172155;
+    --bs-lightblue:#33428a;
+    --bs-orange:#172155;
+    --bs-font-lobster:'Lobster', cursive;
+    --bs-font-lobstertwo:'Lobster Two', cursive;
+    --bs-font-poppins:'Poppins', sans-serif;
+    --bs-gray:rgb(146, 145, 145);
+}
+.bg-blue{
+    background-color:var(--bs-blue);
+}
+.text-blue{
+    color: var(--bs-blue);
+}
+.bg-lightblue{
+    background-color:var(--bs-lightblue);
+}
+.bg-orange{
+    background-color:var(--bs-orange);
+}
+.text-orange{
+    color: var(--bs-orange);
+}
+.text-gray{
+    color: var(--bs-gray);
+}
+.font-lobster{
+    font-family:var(--bs-font-lobster) ;
+}
+.font-lobstertwo{
+    font-family: var(--bs-font-lobstertwo);
+}
+.font-poppins{
+    font-family: var(--bs-font-poppins);
+}
+.error{
+    color: red;
+}
+#hero-section{
+    background: url(../images/wind.png) center;
+    background-size:cover;
+}
+#hero-section button{
+    border: 1px solid var(--bs-blue);
+}
+#education{
+    background-image:linear-gradient(4deg, rgba(13, 13, 13, 0.75) 100%, rgba(10, 9, 10, 0.3) 100%, rgba(16, 15, 15, 0.3) 100%), url(../images/Shivaji-University-Kolhapur1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:#eee;
+}
+#abo,#hello,#sk,#T1{
+        text-shadow:0 1px 0px #f8f9fa,1px 0 0px #e4eaec,1px 2px 1px #e0e3e5,2px 1px 1px #e1eff4,2px 3px 2px #e2e6e9,3px 2px 2px #bcc1c3,3px 4px 2px #ebeff1,4px 3px 3px #e4eaec,4px 5px 3px #ecf0f2,5px 4px 2px #f0f4f6,5px 6px 2px #fcfdfe,6px 5px 2px #d0d6d9,6px 7px 1px #e6edf0,7px 6px 1px #e6eaec,7px 8px 0px #e6ecef,8px 7px 0px #dbe3e6;
+}
+.work img{
+position: absolute;
+}
+.view button{
+font-family: var(--bs-font-poppins);
+border: 0px solid black;
+position: absolute;
+padding: 5px;
+background-color: rgb(15, 14, 14);
+text-align: center;
+bottom: 40%;
+left: 40%;
+width: 80px;
+}
+.view button:hover {
+    background-color: rgba(223, 106, 4, 0.8);
+    color:white ;
+}
+
+#pp{
+text-shadow: 
+  1px 0px 1px #ccc, 0px 1px 1px #eee, 
+  2px 1px 1px #ccc, 1px 2px 1px #eee,
+  3px 2px 1px #ccc, 2px 3px 1px #eee,
+  4px 3px 1px #ccc, 3px 4px 1px #eee,
+  5px 4px 1px #ccc, 4px 5px 1px #eee,
+  6px 5px 1px #ccc, 5px 6px 1px #eee,
+  7px 6px 1px #ccc;
+}
+.main-timeline{
+    position: relative;
+}
+.main-timeline:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.main-timeline .timeline{
+    width: calc(50% + 1px);
+    padding: 5px 0 0 10px;
+    margin: 0 0 20px;
+    float: right;
+    position: relative; 
+}
+.main-timeline .timeline-content{
+    color: #000;
+    background: repeating-linear-gradient(#f6f5f4,#fcfbfa 20px,#fefdfc 20px,#fefdfb 22px );
+    text-align: center; 
+    min-height: 150px;
+    padding: 60px 20px 20px;
+    box-shadow: 0 0 20px -5px rgba(0,0,0,0.3);
+    border: 10px dotted rgba(0,0,0,0.1);
+    display: block; 
+    position: relative;
+}
+.main-timeline .timeline-content:hover{ text-decoration: none; }
+.main-timeline .timeline-year{
+    color: #fff;
+    background-color: #d13847;
+    font-size: 25px;
+    line-height: 70px;
+    height: 55px;
+    width: 100px;
+    transform: rotate(7deg);   
+    position: absolute;
+    left: -15px;
+    top: -10px;
+}
+.main-timeline .timeline-year:before{
+    content: '';
+    background-color: #fcfcfc;
+    height: 12px;
+    width: 12px;
+    border: 3px solid rgb(170, 170, 170);
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 50%;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+}
+.main-timeline .title{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0 5px;
+}
+.main-timeline .description{
+    color: #222;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin: 0;
+}
+.main-timeline .timeline:nth-child(even){
+    float: left;
+    padding: 5px 10px 0 0;
+}
+.main-timeline .timeline:nth-child(even) .timeline-year{
+    transform: rotate(-7deg);
+    left: auto;
+    right: -15px;
+}
+.main-timeline .timeline:nth-child(even) .timeline-year:before{
+    left: auto;
+    right: 8px;
+}
+.main-timeline .timeline:nth-child(4n+2) .timeline-year{ background-color: #e87a14; }
+.main-timeline .timeline:nth-child(4n+3) .timeline-year{ background-color: #e8b019; }
+.main-timeline .timeline:nth-child(4n+4) .timeline-year{ background-color: #20b583; }
+@media screen and (max-width:767px){
+    .main-timeline .timeline{ width: 100%; } 
+}
+@media screen and (max-width:576px){
+    .main-timeline .title{ font-size: 20px; }
+}
+.fa-user-graduate{
+    margin: auto !important;
+}
+.progress{
+    height: 40px;
+    border-radius: 100px;
+    box-shadow: none;
+    margin-top: 40px;
+    position: relative;
+}
+.progress .progress-title{
+    width: 25%;
+    height: 100%;
+    border-radius: 100px 0 0 100px;
+    float: left;
+    margin: 0;
+    font-size: 15px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+}
+.progress .progress-title:after{
+    content: "";
+    border-left: 10px solid #fff;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    z-index: 1;
+}
+.progress .progress-bar{
+    width: 80%;
+    background: #fff;
+    box-shadow: none;
+    position: relative;
+}
+.progress .progress-value{
+    height: 100%;
+    border-radius: 0 100px 100px 0;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 40px;
+    animation: animate-positive 2s;
+}
+.progress.blue .progress-value{ background: #172155; }
+#frmdiv{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#contact{
+    background-image: url(../images/contact.webp);
+    background-size:cover ;
+    background-repeat: no-repeat;
+
+}
+
+@keyframes animate-positive{
+    0%{ width: 0; }
+}
+@media only screen and (max-width: 480px){
+    .progress .progress-title{
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+}
