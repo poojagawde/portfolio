@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-item{
+    transition: 2s;
+}
+.nav-item:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.head{
+   font-weight: 600;
+   letter-spacing: 18px;
+   float: right;
+}
+#card{
+    background-image: url(../images/h4-parallax-2.jpg);
+    background-size: cover;
+}
+.life h2{
+    opacity: 25%;
+    font-size: 100px;
+    font-weight: 300;
+    margin: 0px 0px -60px 0px;
+}
+#yoga .btn,.newsletter .btn{
+    font-size: 15px;
+}
+#video{
+    background-image: url(../images/h4-parallax-1.jpg);
+    background-size: cover;
+    max-width: 100%;
+    background-attachment: fixed;
+    height: 500px;
+}
+.video1{
+    position: relative;
+}
+.fa-play-circle{
+   position: absolute;
+   left: 50%;
+   top: 50%;
+}
+.power1{
+    width: 135px;
+    height: 19px;
+}
+.power1 h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.contact input{
+    border: 1px solid #ffffff;
+    margin: 5px 0px 10px 0px;
+} 
+
+@media only screen and (min-width:768px){
+.head{
+        font-size: 70px;
+        width: 400px;
+}
+}
+@media only screen and (min-width:1326px){
+    .head{
+            font-size: 100px;
+            width: 473px;
+    }
+    }
+
+:root{
+    --bs-gray:#84909a;
+    --bs-orange:#f34e3a;
+    --bs-white:#ffffff;
+    --bs-black:#1a1919;
+    --bs-font-ubantu:'Ubuntu', sans-serif;
+    --bs-font-teko:'Teko', sans-serif;
+}
+.font-ubantu{
+    font-family: var(--bs-font-ubantu);
+}
+.font-teko{
+    font-family: var(--bs-font-teko);
+}
+.bg-orange{
+    background-color: var(--bs-orange);
+}
+.text-orange{
+   color: var(--bs-orange);
+}
+.bg-gray{
+    background-color: var(--bs-gray);
+}
+.text-gray{
+    color: var(--bs-gray);
+ }
+.bg-white{
+    background-color: var(--bs-white);
+}
+.bg-black{
+    background-color: var(--bs-black);
+}
+.text-black{
+    color: var(--bs-black);
+}
